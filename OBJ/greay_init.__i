@@ -1,0 +1,7 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\FWLIB\STM32F4xx_StdPeriph_Driver\inc -I..\USER -I..\HARDWARE\LED -I..\UCOSIII\uC-CPU -I..\UCOSIII\uC-LIB -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I..\SRC -I..\API -I..\HARDWARE\carBaseMoves -I..\INC
+-I D:\新加卷E\比赛项目\易阳备份\123\USER\RTE
+-I D:\keil_v5\keil5_install_location\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-I D:\keil_v5\keil5_install_location\ARM\CMSIS\Include
+-I D:\keil_v5\keil5_install_location\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Device\Include
+-D__UVISION_VERSION="514" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"
+-o ..\obj\greay_init.o --omf_browse ..\obj\greay_init.crf --depend ..\obj\greay_init.d "..\SRC\Greay_Init.c"
